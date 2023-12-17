@@ -24,4 +24,10 @@ function firstNonRepeatedChar(str) {
     }
 }
 const input = prompt("Enter a string");
-alert(firstNonRepeatedChar(input));
+const result = firstNonRepeatedChar(input);
+
+if (result !== "null") {
+    alert(result);
+} else {
+    alert("null");
+}
