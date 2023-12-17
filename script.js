@@ -20,7 +20,7 @@ function firstNonRepeatedChar(str) {
     if (!flag) {
         return String.fromCharCode(res);
     } else {
-        return "null";
+        return null;
     }
 }
 const input = prompt("Enter a string");
@@ -29,5 +29,5 @@ const result = firstNonRepeatedChar(input);
 if (result !== "null") {
     alert(result);
 } else {
-    alert("null");
+    alert(null);
 }
