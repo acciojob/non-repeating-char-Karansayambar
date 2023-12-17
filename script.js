@@ -16,7 +16,7 @@ function firstNonRepeatedChar(str) {
 	 if (!flag) {
         return String.fromCharCode(res);
     } else {
-        return "null";
+        return "";
     }
 }
 const input = prompt("Enter a string");
